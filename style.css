@@ -1,0 +1,82 @@
+body {
+	margin: 0;
+	padding: 0;
+	
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 1.3em;
+
+	background: #F7F7F7;
+
+}
+header, section {
+	padding: 1.1em;
+	background: #FFF;
+}
+
+h1{
+	
+	font-family: "Helvetica Neue";
+	font-weight:100;
+	line-height: 1.0em;
+	margin: 0;	
+	line-height: 40px;
+	padding-left: 10px;
+}
+
+ul {
+	list-style-type:none;
+	position: fixed;
+	left: 0;
+	top: 40px;
+	width: 300px;
+	height: 100%;
+	overflow-y: scroll;
+	margin: 0;
+	padding: 0;
+	border-right: 1px solid #CCC;
+	background: #FCFCFC;
+}
+li {
+	padding-left: 10px	;
+	font-family: "Helvetica Neue";
+	border-bottom: 1px solid #CCC;
+	padding: 20px 10px;
+	cursor: pointer;
+}
+h3 {
+	margin: 0;
+	padding: 0;
+	color: #083a4d;
+}
+.nav {
+	background-color:#2b282f;
+	color:#FFF;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 40px;
+
+	font-size: 14px;
+	line-height: 1.0em;	
+	font-family: "Helvetica Neue";
+	font-weight:400;
+}
+
+article {
+	padding-left: 300px;
+	padding-top: 40px;
+}
+article h1 {
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 55px;
+}
+article .content {
+	font-family: "Georgia";
+	margin: 0 auto;
+	font-size: 17px;
+	line-height: 1.4em;
+	max-width: 500px;
+}
